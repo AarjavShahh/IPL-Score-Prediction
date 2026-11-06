@@ -1,6 +1,6 @@
 # IPL-Score-Prediction
 
-## 📌 Project Overview
+##  Project Overview
 
 The **IPL Score Predictor** is a Machine Learning-based web application that predicts the final score of an ongoing Indian Premier League (IPL) cricket match.
 
@@ -8,7 +8,7 @@ The application uses historical IPL match data and a trained Machine Learning re
 
 Users can enter match details such as batting team, bowling team, current runs, wickets fallen, overs completed, and performance in the last five overs to get a predicted final score range.
 
-## 🎯 Project Objectives
+##  Project Objectives
 
 - Predict the probable final score of an ongoing IPL match.
 - Analyze historical IPL match data.
@@ -16,7 +16,7 @@ Users can enter match details such as batting team, bowling team, current runs, 
 - Build an interactive web application using Streamlit.
 - Understand the relationship between match conditions and final scores.
 
-## 🛠️ Technologies & Libraries Used
+##  Technologies & Libraries Used
 
 - **Programming Language:** Python
 - **Data Analysis:** Pandas, NumPy
@@ -26,7 +26,7 @@ Users can enter match details such as batting team, bowling team, current runs, 
 - **Model Serialization:** Pickle
 - **Development Environment:** Jupyter Notebook, VS Code
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 IPL-Score-Predictor/
@@ -39,7 +39,7 @@ IPL-Score-Predictor/
 └── README.md                # Project documentation
 ```
 
-## 📊 Dataset Description
+##  Dataset Description
 
 The project uses historical IPL match data containing approximately 76,014 records and 15 columns.
 
@@ -63,7 +63,7 @@ The dataset is processed by:
 - Encoding batting and bowling teams using One-Hot Encoding.
 - Separating independent and dependent variables.
 
-## 🤖 Machine Learning Models
+##  Machine Learning Models
 
 The following regression algorithms were explored:
 
@@ -84,7 +84,7 @@ Model performance was evaluated using:
 
 The trained Random Forest model was exported using Pickle and saved as `ml_model.pkl`.
 
-## ⚙️ Features of the Application
+##  Features of the Application
 
 - Interactive Streamlit user interface.
 - Selection of batting and bowling teams.
@@ -94,7 +94,7 @@ The trained Random Forest model was exported using Pickle and saved as `ml_model
 - Machine Learning-based final score prediction.
 - Displays an estimated score range of ±5 runs around the model prediction.
 
-## 🚀 Installation and Setup
+##  Installation and Setup
 
 ### 1. Clone the Repository
 
@@ -148,7 +148,7 @@ http://localhost:8501
 
 Open this URL in your browser to use the IPL Score Predictor.
 
-## 🖥️ How to Use
+##  How to Use
 
 1. Launch the Streamlit application.
 2. Select the batting team.
@@ -159,9 +159,7 @@ Open this URL in your browser to use the IPL Score Predictor.
 7. Click the **Predict Score** button.
 8. View the predicted final match score range.
 
-**Note:** The application considers match situations starting from at least five overs to improve prediction reliability. The batting and bowling teams must be different.
-
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Integrate real-time IPL match data.
 - Improve prediction accuracy through hyperparameter tuning.
@@ -169,16 +167,3 @@ Open this URL in your browser to use the IPL Score Predictor.
 - Add match-wise prediction analytics and visualizations.
 - Deploy the application on Streamlit Community Cloud.
 - Update the model using more recent IPL datasets.
-
-## 👨‍💻 Author
-
-**Aarjav Shah**
-
-- GitHub: [Add Your GitHub Profile]
-- LinkedIn: [Add Your LinkedIn Profile]
-
----
-
-⭐ If you find this project interesting, consider giving it a star on GitHub!
-
-**Disclaimer:** This project is developed for educational and machine learning demonstration purposes. Predictions are estimates and do not guarantee actual match results.
